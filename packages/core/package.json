@@ -51,11 +51,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OpenMiddleware/chain.git",
+    "url": "git+https://github.com/openmiddleware/openmiddleware.git",
     "directory": "packages/core"
   },
   "bugs": {
-    "url": "https://github.com/OpenMiddleware/chain/issues"
+    "url": "https://github.com/openmiddleware/openmiddleware/issues"
   },
   "homepage": "https://openmiddleware.dev",
   "scripts": {
