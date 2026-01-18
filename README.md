@@ -216,7 +216,7 @@ Contributions are welcome! Please read our contributing guidelines before submit
 
 ## License
 
-MIT License - [Ersin KOC](https://github.com/ersinkoc)
+MIT License
 
 ---
 
