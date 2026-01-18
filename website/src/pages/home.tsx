@@ -157,7 +157,7 @@ export function Home() {
                   </span>
                 </Link>
                 <a
-                  href="https://github.com/ersinkoc/openmiddleware"
+                  href="https://github.com/openmiddleware/openmiddleware"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-secondary flex items-center justify-center gap-2"
@@ -182,6 +182,16 @@ export function Home() {
                   </svg>
                 </button>
               </div>
+
+              {/* NPM Badges */}
+              <div className="mt-6 flex flex-wrap gap-2 justify-center lg:justify-start">
+                <a href="https://www.npmjs.com/package/@openmiddleware/chain" target="_blank" rel="noopener noreferrer">
+                  <img src="https://img.shields.io/npm/v/@openmiddleware/chain?style=flat-square&color=6366f1&label=npm" alt="npm version" className="h-5" />
+                </a>
+                <a href="https://github.com/openmiddleware/openmiddleware" target="_blank" rel="noopener noreferrer">
+                  <img src="https://img.shields.io/github/license/openmiddleware/openmiddleware?style=flat-square&color=22c55e" alt="license" className="h-5" />
+                </a>
+              </div>
             </div>
 
             {/* Right side - Code block */}
@@ -201,6 +211,28 @@ export function Home() {
                 <div className="mt-2 text-[rgb(var(--muted-foreground))]">{stat.label}</div>
               </div>
             ))}
+          </div>
+
+          {/* Runs Everywhere */}
+          <div className="mt-20 text-center">
+            <p className="text-sm text-[rgb(var(--muted-foreground))] mb-6">Runs on every JavaScript runtime</p>
+            <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-4 opacity-60 hover:opacity-100 transition-opacity">
+              <span className="flex items-center gap-2 text-[rgb(var(--foreground))] font-medium">
+                <span className="text-2xl">🟢</span> Node.js
+              </span>
+              <span className="flex items-center gap-2 text-[rgb(var(--foreground))] font-medium">
+                <span className="text-2xl">🥟</span> Bun
+              </span>
+              <span className="flex items-center gap-2 text-[rgb(var(--foreground))] font-medium">
+                <span className="text-2xl">🦕</span> Deno
+              </span>
+              <span className="flex items-center gap-2 text-[rgb(var(--foreground))] font-medium">
+                <span className="text-2xl">☁️</span> Cloudflare Workers
+              </span>
+              <span className="flex items-center gap-2 text-[rgb(var(--foreground))] font-medium">
+                <span className="text-2xl">▲</span> Vercel Edge
+              </span>
+            </div>
           </div>
         </div>
       </section>

@@ -1,0 +1,68 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+
+  <!-- Grid pattern -->
+  <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+    <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#334155" stroke-width="0.5" opacity="0.3"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+
+  <!-- Decorative blobs -->
+  <circle cx="100" cy="100" r="200" fill="#6366f1" opacity="0.1" filter="blur(60px)"/>
+  <circle cx="1100" cy="530" r="250" fill="#06b6d4" opacity="0.1" filter="blur(60px)"/>
+
+  <!-- Logo -->
+  <g transform="translate(540, 140)">
+    <rect width="120" height="120" rx="24" fill="url(#logoGradient)"/>
+    <g opacity="0.95">
+      <rect x="24" y="30" width="16" height="16" rx="3" fill="white"/>
+      <rect x="52" y="44" width="16" height="16" rx="3" fill="white"/>
+      <rect x="80" y="58" width="16" height="16" rx="3" fill="white"/>
+    </g>
+    <line x1="35" y1="40" x2="52" y1="52" stroke="white" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+    <line x1="63" y1="55" x2="80" y1="67" stroke="white" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+  </g>
+
+  <!-- Title -->
+  <text x="600" y="340" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="800" fill="url(#textGradient)">
+    OpenMiddleware
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="410" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#94a3b8">
+    Universal Middleware Framework for JavaScript
+  </text>
+
+  <!-- Features -->
+  <g font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#64748b">
+    <text x="280" y="500" text-anchor="middle">Zero Dependencies</text>
+    <text x="600" y="500" text-anchor="middle">Type-Safe</text>
+    <text x="920" y="500" text-anchor="middle">Production Ready</text>
+  </g>
+
+  <!-- Dots between features -->
+  <circle cx="440" cy="495" r="4" fill="#6366f1"/>
+  <circle cx="760" cy="495" r="4" fill="#06b6d4"/>
+
+  <!-- URL -->
+  <text x="600" y="580" text-anchor="middle" font-family="monospace" font-size="24" fill="#818cf8">
+    openmiddleware.dev
+  </text>
+</svg>

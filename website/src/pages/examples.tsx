@@ -376,7 +376,7 @@ export function Examples() {
           Check out the complete examples in the GitHub repository:
         </p>
         <a
-          href="https://github.com/ersinkoc/openmiddleware/tree/main/examples"
+          href="https://github.com/openmiddleware/openmiddleware/tree/main/examples"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center text-[rgb(var(--accent))] hover:underline"

@@ -171,7 +171,7 @@ function MobileMenu({ isOpen, onClose }: { isOpen: boolean; onClose: () => void 
         {/* Footer */}
         <div className="absolute bottom-0 left-0 right-0 p-6 border-t border-[rgb(var(--border))]">
           <a
-            href="https://github.com/ersinkoc/openmiddleware"
+            href="https://github.com/openmiddleware/openmiddleware"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-[rgb(var(--muted))] hover:bg-[rgb(var(--border))] transition-colors"
@@ -247,7 +247,7 @@ export function Layout() {
             <div className="flex items-center gap-3">
               {/* GitHub */}
               <a
-                href="https://github.com/ersinkoc/openmiddleware"
+                href="https://github.com/openmiddleware/openmiddleware"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={clsx(
@@ -313,7 +313,7 @@ export function Layout() {
               </p>
               <div className="flex items-center gap-4">
                 <a
-                  href="https://github.com/ersinkoc/openmiddleware"
+                  href="https://github.com/openmiddleware/openmiddleware"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2.5 rounded-xl bg-[rgb(var(--muted))] hover:bg-[rgb(var(--border))] transition-colors"
@@ -368,7 +368,7 @@ export function Layout() {
                 ))}
                 <li>
                   <a
-                    href="https://github.com/ersinkoc/openmiddleware/blob/main/LICENSE"
+                    href="https://github.com/openmiddleware/openmiddleware/blob/main/LICENSE"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-[rgb(var(--muted-foreground))] hover:text-[rgb(var(--foreground))] transition-colors link-hover"
